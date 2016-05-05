@@ -11,12 +11,14 @@
 
         <uses-permission android:name="android.permission.INTERNET" />
 
-        <activity android:name=".Home">
+        <activity android:name=".CMaRT_Gallery">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
         </activity>
         <meta-data
             android:name="io.fabric.ApiKey"
